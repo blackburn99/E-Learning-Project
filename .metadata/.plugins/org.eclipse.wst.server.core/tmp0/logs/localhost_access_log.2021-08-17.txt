@@ -1,0 +1,2 @@
+127.0.0.1 - - [17/Aug/2021:18:06:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Aug/2021:18:06:13 +0530] "GET /e-learning-project-frontend/index.jsp HTTP/1.1" 200 57

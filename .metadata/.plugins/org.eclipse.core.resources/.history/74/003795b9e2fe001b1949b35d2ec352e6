@@ -1,0 +1,34 @@
+package com.amdocs.dao.imp;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.amdocs.dao.UserDao;
+import com.amdocs.jdbc.Create_Connection;
+
+
+public class UserDaoImp implements UserDao {
+Connection conn = Create_Connection.getConnection();
+	
+	@Override
+	public boolean saveUser(User user) {
+		
+		String query = "insert into user values(?,?,?,?,?,?)";
+		try {
+			PreparedStatement ps = conn.prepareStatement(query);
+			ps.setInt(1, user.getId());
+			ps.setString(2, user.getUsername());
+			ps.setString(3, user.getPassword());
+			ps.setString(4, user.getEmail());
+			ps.setInt(5, user.getAge());
+			ps.setLong(6, user.getPhone());
+			ps.executeUpdate();
+			return true;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.amdocs.dao.imp.UserDaoImp"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.UserDao"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.imp.CourseDaoImp"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.CourseDao"/>
+<fullyQualifiedTypeName name="com.amdocs.model.Course"/>
+<fullyQualifiedTypeName name="com.amdocs.model.User"/>
+<fullyQualifiedTypeName name="com.amdocs.jdbc.Create_Connection"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.imp.AdminDaoImp"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.AdminDao"/>
+<fullyQualifiedTypeName name="com.amdocs.model.Admin"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.imp.ContactDaoImp"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.ContactDao"/>
+<fullyQualifiedTypeName name="com.amdocs.model.Contact"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.imp.FeedbackDaoImp"/>
+<fullyQualifiedTypeName name="com.amdocs.dao.FeedbackDao"/>
+<fullyQualifiedTypeName name="com.amdocs.model.Feedback"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package com.java.frontend.controller;
+
+public class UserController {
+
+}

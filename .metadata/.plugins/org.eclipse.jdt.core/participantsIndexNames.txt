@@ -1,0 +1,7 @@
+INDEX VERSION 1.130 OT2
+C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3731965439.index
+\elearning-frontend\src
+C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1196513750.index
+\e-learning-project-frontend\src\main\resources
+C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3993798569.index
+\Amdocs_Project_Frontend\src

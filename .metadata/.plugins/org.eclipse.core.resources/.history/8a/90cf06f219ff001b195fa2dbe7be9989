@@ -1,0 +1,32 @@
+package com.amdocs.dao.imp;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.amdocs.dao.CourseDao;
+import com.amdocs.jdbc.Create_Connection;
+
+import com.amdocs.model.Course;
+public class CourseDaoImp implements CourseDao{
+	Connection conn = Create_Connection.getConnection();
+
+	@Override
+	public boolean saveCourse(Course course) {
+		String query = "insert into course values(?,?,?,?,?)";
+		try {
+			PreparedStatement ps = conn.prepareStatement(query);
+			ps.setInt(1, course.getCourseId());
+			ps.setString(2, course.getCourseName());
+			ps.setDouble(3, course.getCourseFee());
+			ps.setString(4, course.getDescription());
+			ps.setString(5, course.getResources());
+			ps.executeUpdate();
+			return true;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return false;
+	}
+}

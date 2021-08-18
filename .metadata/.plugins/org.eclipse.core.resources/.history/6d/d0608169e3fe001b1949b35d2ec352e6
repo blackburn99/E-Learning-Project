@@ -1,0 +1,15 @@
+package com.amdocs.client;
+
+
+
+public class CourseClient {
+	public static void main(String[] args) {
+			
+			CourseDAO dao = new CourseDAOImpl();
+			
+			Course course = new Course(3001, "Design Patterns", 3500, "GOF and Sun Design Patterns", "video.mp4");
+			dao.saveCourse(course );
+			System.out.println("Saved Successfully!!!");
+		}
+
+}

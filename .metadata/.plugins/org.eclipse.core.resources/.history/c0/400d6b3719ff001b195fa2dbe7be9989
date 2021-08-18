@@ -1,0 +1,5 @@
+package com.amdocs.dao;
+
+public interface ContactDao {
+
+}

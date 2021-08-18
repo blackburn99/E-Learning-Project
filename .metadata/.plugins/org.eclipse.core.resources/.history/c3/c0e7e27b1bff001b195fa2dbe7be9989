@@ -1,0 +1,7 @@
+package com.amdocs.dao;
+
+
+
+public interface FeedbackDao {
+	boolean saveFeedback(Feedback feedback);
+}

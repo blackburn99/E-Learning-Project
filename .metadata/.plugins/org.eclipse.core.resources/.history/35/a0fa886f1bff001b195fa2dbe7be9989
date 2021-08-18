@@ -1,0 +1,7 @@
+package com.amdocs.dao;
+
+
+
+public interface AdminDao {
+	boolean saveAdmin(Admin admin);
+}

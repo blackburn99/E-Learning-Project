@@ -1,0 +1,11 @@
+package snippet;
+
+public class Snippet {
+	com.amdocs.client
+	com.amdocs.dao
+	com.amdocs.dao.imp
+	com.amdocs.jdbc
+	com.amdocs.model
+	/e-learning-project-backend/src/main
+}
+

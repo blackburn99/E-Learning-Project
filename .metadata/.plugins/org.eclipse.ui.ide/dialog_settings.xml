@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\User\eclipse-workspace\elerning backend"/>
+		<item value="C:\Users\User\eclipse-workspace\elearning-frontend"/>
+		<item value="C:\Users\User\eclipse-workspace\Amdocs_Project_Frontend"/>
+		<item value="C:\Users\User\eclipse-workspace\Amdocs_Project"/>
+		<item value="C:\Users\User\eclipse-workspace\Amdocs_Frontend"/>
+		<item value="C:\Users\User\eclipse-workspace\elearning-backend"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>

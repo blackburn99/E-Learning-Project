@@ -1,0 +1,7 @@
+package com.amdocs.dao;
+
+
+
+public interface CourseDao {
+	boolean saveCourse(Course course);
+}
